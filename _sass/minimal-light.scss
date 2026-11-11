@@ -676,3 +676,25 @@ footer {
     direction: rtl;
     font-weight: 400;
 }
+
+/* ===== GOLD THEME ===== */
+
+/* Section headings */
+h1, h2, h3, h4 {
+    color: #C49A45 !important;
+}
+
+/* Links */
+a {
+    color: #C49A45;
+}
+
+/* Navigation links */
+nav a {
+    color: #C49A45;
+}
+
+/* Hover effect */
+a:hover {
+    color: #DDBB70;
+}
