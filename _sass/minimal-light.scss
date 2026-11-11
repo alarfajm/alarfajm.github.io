@@ -719,3 +719,27 @@ hr {
     background: #E8D6A9;
     color: #292929;
 }
+
+
+/* be cool*/
+.far,
+.fab {
+    color: #C49A45 !important;
+    fill: #C49A45 !important;
+}
+
+/* Icons and links on hover */
+nav a:hover,
+.social-icons a:hover,
+.menu a:hover {
+    color: #D4AF63 !important;
+}
+
+/* General links */
+a {
+    color: #A98235 !important;
+}
+
+a:hover {
+    color: #D4AF63 !important;
+}
