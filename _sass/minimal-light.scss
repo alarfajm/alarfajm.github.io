@@ -677,24 +677,45 @@ footer {
     font-weight: 400;
 }
 
-/* ===== GOLD THEME ===== */
+/* ===== CUSTOM GOLD & IVORY THEME ===== */
 
-/* Section headings */
-h1, h2, h3, h4 {
+/* Main background and text */
+body {
+    background-color: #FAF8F2 !important;
+    color: #292929 !important;
+}
+
+/* Main headings */
+h1, h2, h3, h4, h5, h6 {
     color: #C49A45 !important;
 }
 
 /* Links */
 a {
-    color: #C49A45;
+    color: #A98235 !important;
 }
 
-/* Navigation links */
-nav a {
-    color: #C49A45;
-}
-
-/* Hover effect */
 a:hover {
-    color: #DDBB70;
+    color: #D4AF63 !important;
+}
+
+/* Navigation */
+nav a {
+    color: #8C754B !important;
+}
+
+/* Profile information */
+strong, b {
+    color: #8C754B;
+}
+
+/* Horizontal separators */
+hr {
+    border-color: #E5DCCB;
+}
+
+/* Text selection */
+::selection {
+    background: #E8D6A9;
+    color: #292929;
 }
