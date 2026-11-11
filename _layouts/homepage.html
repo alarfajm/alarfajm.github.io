@@ -52,19 +52,33 @@
         <h1 id="name"></h1>
         
         <script>
-          const names = ["محمد العرفج", "Mohammed Al Arfaj"];
-          const nameElement = document.getElementById("name");
-          let index = 0;
-        
-          // 初始化显示
-          nameElement.textContent = names[index];
-        
-          // 每 5 秒切换一次
-          setInterval(function() {
-            index = (index + 1) % names.length;  // 切换索引，0 和 1 之间循环
-            nameElement.textContent = names[index];  // 更新显示的名字
-          }, 5000);  // 5000 毫秒 = 5 秒
-        </script>
+        const names = ["محمد العرفج", "Mohammed Al Arfaj"];
+        const nameElement = document.getElementById("name");
+        let index = 0;
+    
+        function updateName() {
+            nameElement.textContent = names[index];
+    
+            if (names[index] === "كاتن") {
+                nameElement.classList.add("arabic");
+                nameElement.setAttribute("lang", "ar");
+                nameElement.setAttribute("dir", "rtl");
+            } else {
+                nameElement.classList.remove("arabic");
+                nameElement.setAttribute("lang", "en");
+                nameElement.setAttribute("dir", "ltr");
+            }
+        }
+    
+        // Display the first name
+        updateName();
+    
+        // Switch names every 5 seconds
+        setInterval(function() {
+            index = (index + 1) % names.length;
+            updateName();
+        }, 5000);
+      </script>
 
         {% if site.position %}
         <position style="font-size:1.10rem;">{{ site.position }}</position>
