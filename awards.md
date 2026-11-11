@@ -3,6 +3,4 @@ layout: homepage
 permalink: /awards/
 ---
 
-## Awards
-
-Add your awards here.
+{% include_relative _includes/awards.md %}
