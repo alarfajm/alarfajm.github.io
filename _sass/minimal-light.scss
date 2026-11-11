@@ -55,6 +55,64 @@
     */
 }
 
+.sidebar-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 0.28rem;
+  margin: 0.15rem auto 0.45rem;
+  max-width: 185px;
+  width: 82%;
+}
+
+.sidebar-nav-label {
+  border-bottom: 1px solid rgba(4, 51, 97, 0.18);
+  color: #043361;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.09em;
+  margin: 0 0 0.34rem 0;
+  padding: 0 0 0.32rem 0.2rem;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.sidebar-nav a {
+  background: rgba(4, 51, 97, 0.035);
+  border-left: 3px solid rgba(4, 51, 97, 0.16);
+  border-radius: 0 6px 6px 0;
+  color: #4d6175;
+  font-size: 0.94rem;
+  line-height: 1.25;
+  padding: 0.42rem 0.55rem 0.42rem 0.78rem;
+  text-align: left;
+  transition: background-color 0.15s ease, border-color 0.15s ease, color 0.15s ease, padding-left 0.15s ease;
+}
+
+.sidebar-nav a:hover {
+  background: rgba(4, 51, 97, 0.09);
+  border-left-color: #043361;
+  color: #043361;
+  padding-left: 0.92rem;
+}
+
+.back-about-link {
+  color: #6d7f91;
+  display: inline-flex;
+  font-size: 0.86rem;
+  margin-bottom: 1.35rem;
+  text-decoration: none;
+}
+
+.back-about-link::before {
+  content: "←";
+  margin-right: 0.35rem;
+}
+
+.back-about-link:hover {
+  color: #043361;
+  text-decoration: none;
+}
+
 .icon-button{
   background-color:white;
   border-radius:3.6rem;
@@ -180,6 +238,23 @@ papertitle {
     color:#eeeff0;
     }
 
+    .sidebar-nav-label {
+      border-bottom-color: rgba(62, 183, 240, 0.24);
+      color:rgb(62, 183, 240);
+    }
+
+    .sidebar-nav a {
+      background: rgba(62, 183, 240, 0.06);
+      border-left-color: rgba(62, 183, 240, 0.28);
+      color:#b8c3d0;
+    }
+
+    .sidebar-nav a:hover {
+      background: rgba(62, 183, 240, 0.13);
+      border-left-color: rgb(62, 183, 240);
+      color:rgb(62, 183, 240);
+    }
+
 }
 
 
@@ -243,7 +318,7 @@ h1 {
 h2 {
   color:#043361;
   font-weight: 500;
-  margin:2px 0px 15px;
+  margin:30px 0px 18px;
   font-size: 157%;
 }
 
@@ -594,33 +669,4 @@ footer {
   margin-left: 0px;
   display:none;
   font-family: monospace;
-}
-
-
-.sidebar-nav {
-  margin-top: 22px;
-  padding-top: 15px;
-  border-top: 1px solid #e5e5e5;
-  display: flex;
-  flex-direction: column;
-  gap: 6px;
-  text-align: left;
-}
-
-.sidebar-nav-label {
-  font-size: 0.75rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-  color: #888888;
-  margin-bottom: 4px;
-}
-
-.sidebar-nav a {
-  font-size: 0.95rem;
-  text-decoration: none;
-}
-
-.sidebar-nav a:hover {
-  text-decoration: underline;
 }
