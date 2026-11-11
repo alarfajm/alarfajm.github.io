@@ -4,7 +4,7 @@ layout: homepage
 
 ## About Me
 
-I am a Ph.D. student at ...
+I am a London university student programming in Python and Java. I enjoy making 3d models both for engineering (using Autodesk Fusion 360) and artistically(Blender). I also enjoy playing the piano, making 3d models of the piano and enhancing them with AI to simulate real orchestral performances.
 
 ## Research Interests
 
