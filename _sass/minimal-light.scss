@@ -743,3 +743,44 @@ a {
 a:hover {
     color: #D4AF63 !important;
 }
+
+/* ===== GOLD NAVIGATION AND ICONS ===== */
+
+/* Explore menu and navigation */
+nav,
+nav a,
+.menu a,
+.explore,
+.explore a {
+    color: #C49A45 !important;
+}
+
+/* Social media and contact icons */
+.social-icons,
+.social-icons a,
+.social-icons i,
+.social-icons svg,
+i,
+.fa,
+.fas,
+.far,
+.fab {
+    color: #C49A45 !important;
+    fill: #C49A45 !important;
+}
+
+/* Icons and links on hover */
+nav a:hover,
+.social-icons a:hover,
+.menu a:hover {
+    color: #D4AF63 !important;
+}
+
+/* General links */
+a {
+    color: #A98235 !important;
+}
+
+a:hover {
+    color: #D4AF63 !important;
+}
