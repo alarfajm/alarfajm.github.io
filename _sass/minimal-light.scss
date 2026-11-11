@@ -671,6 +671,8 @@ footer {
   font-family: monospace;
 }
 
-.arabic {
+#name.arabic {
     font-family: 'Aref Ruqaa', serif !important;
+    direction: rtl;
+    font-weight: 400;
 }
