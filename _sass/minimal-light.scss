@@ -239,20 +239,20 @@ papertitle {
     }
 
     .sidebar-nav-label {
-      border-bottom-color: rgba(139, 0, 0, 0.24);
-      color:rgb(139, 0, 0);
+      border-bottom-color: rgba(255, 0, 0, 0.24);
+      color:rgb(255, 0, 0);
     }
 
     .sidebar-nav a {
-      background: rgba(139, 0, 0, 0.06);
-      border-left-color: rgba(139, 0, 0, 0.28);
+      background: rgba(255, 0, 0, 0.06);
+      border-left-color: rgba(255, 0, 0, 0.28);
       color:#C49A454C;
     }
 
     .sidebar-nav a:hover {
-      background: rgba(139, 0, 0, 0.13);
-      border-left-color: rgb(139, 0, 0);
-      color:rgb(139, 0, 0);
+      background: rgba(255, 0, 0, 0.13);
+      border-left-color: rgb(255, 0, 0);
+      color:rgb(255, 0, 0);
     }
 
 }
@@ -355,7 +355,7 @@ a:hover {
 
 @media (prefers-color-scheme: dark) {
   a {
-    color:rgb(62, 183, 240);
+    color:rgb(139, 0, 0);
   }
 }
 
@@ -418,11 +418,11 @@ th {
 
 @media (prefers-color-scheme: dark) {
   th {
-    color:rgb(62, 183, 240);
+    color:rgb(139, 0, 0);
   }
 
   dt {
-    color:rgb(62, 183, 240);
+    color:rgb(139, 0, 0);
   }
 }
 
