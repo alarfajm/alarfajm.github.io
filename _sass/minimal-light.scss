@@ -65,7 +65,7 @@
 }
 
 .sidebar-nav-label {
-  border-bottom: 1px solid rgba(196, 154, 69, 0.18);
+  border-bottom: 1px solid rgba(139, 0, 0, 0.18);
   color: #043361;
   font-size: 0.78rem;
   font-weight: 700;
@@ -77,8 +77,8 @@
 }
 
 .sidebar-nav a {
-  background: rgba(196, 154, 69, 0.035);
-  border-left: 3px solid rgba(196, 154, 69, 0.16);
+  background: rgba(139, 0, 0, 0.035);
+  border-left: 3px solid rgba(139, 0, 0, 0.16);
   border-radius: 0 6px 6px 0;
   color: #4d6175;
   font-size: 0.94rem;
@@ -89,14 +89,14 @@
 }
 
 .sidebar-nav a:hover {
-  background: rgba(196, 154, 69, 0.09);
+  background: rgba(139, 0, 0, 0.09);
   border-left-color: #043361;
   color: #043361;
   padding-left: 0.92rem;
 }
 
 .back-about-link {
-  color: #6d7f91;
+  color: #FF0000;
   display: inline-flex;
   font-size: 0.86rem;
   margin-bottom: 1.35rem;
@@ -223,7 +223,7 @@ papertitle {
     }
 
     autocolor{
-      color:#292929;
+      color:#C0C0C0;
     }
 
     lightonly {
@@ -681,13 +681,13 @@ footer {
 
 /* Main background and text */
 body {
-    background-color: #353935 !important;
+    background-color: #000000 !important;
     color: #DADBDD !important;
 }
 
 /* Main headings */
 h1, h2, h3, h4, h5, h6 {
-    color: #8B0000 !important;
+    color: #FF0000 !important;
 }
 
 /* Links */
