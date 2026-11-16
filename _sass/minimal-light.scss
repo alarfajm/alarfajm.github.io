@@ -239,18 +239,18 @@ papertitle {
     }
 
     .sidebar-nav-label {
-      border-bottom-color: rgba(196, 154, 69, 0.24);
+      border-bottom-color: rgba(139, 0, 0, 0.24);
       color:rgb(196, 154, 69);
     }
 
     .sidebar-nav a {
-      background: rgba(196, 154, 69, 0.06);
+      background: rgba(139, 0, 0, 0.06);
       border-left-color: rgba(196, 154, 69, 0.28);
       color:#C49A454C;
     }
 
     .sidebar-nav a:hover {
-      background: rgba(196, 154, 69, 0.13);
+      background: rgba(139, 0, 0, 0.13);
       border-left-color: rgb(196, 154, 69);
       color:rgb(196, 154, 69);
     }
@@ -752,7 +752,7 @@ nav a,
 .menu a,
 .explore,
 .explore a {
-    color: #C49A45 !important;
+    color: #8B0000 !important;
 }
 
 /* Social media and contact icons */
@@ -765,22 +765,22 @@ i,
 .fas,
 .far,
 .fab {
-    color: #C49A45 !important;
-    fill: #C49A45 !important;
+    color: #8B0000 !important;
+    fill: #8B0000 !important;
 }
 
 /* Icons and links on hover */
 nav a:hover,
 .social-icons a:hover,
 .menu a:hover {
-    color: #D4AF63 !important;
+    color: #FF474C !important;
 }
 
 /* General links */
 a {
-    color: #A98235 !important;
+    color: #C0C0C0 !important;
 }
 
 a:hover {
-    color: #D4AF63 !important;
+    color: #ABABAB !important;
 }
