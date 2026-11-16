@@ -240,19 +240,19 @@ papertitle {
 
     .sidebar-nav-label {
       border-bottom-color: rgba(139, 0, 0, 0.24);
-      color:rgb(196, 154, 69);
+      color:rgb(139, 0, 0);
     }
 
     .sidebar-nav a {
       background: rgba(139, 0, 0, 0.06);
-      border-left-color: rgba(196, 154, 69, 0.28);
+      border-left-color: rgba(139, 0, 0, 0.28);
       color:#C49A454C;
     }
 
     .sidebar-nav a:hover {
       background: rgba(139, 0, 0, 0.13);
-      border-left-color: rgb(196, 154, 69);
-      color:rgb(196, 154, 69);
+      border-left-color: rgb(139, 0, 0);
+      color:rgb(139, 0, 0);
     }
 
 }
@@ -765,15 +765,15 @@ i,
 .fas,
 .far,
 .fab {
-    color: #8B0000 !important;
-    fill: #8B0000 !important;
+    color: #FF0000 !important;
+    fill: #FF0000 !important;
 }
 
 /* Icons and links on hover */
 nav a:hover,
 .social-icons a:hover,
 .menu a:hover {
-    color: #FF474C !important;
+    color: #8B0000 !important;
 }
 
 /* General links */
